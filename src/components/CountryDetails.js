@@ -40,7 +40,7 @@ const CountryDetails = () => {
         console.error(err);
       }
     })();
-  }, []);
+  }, [id]);
 
   return (
     <div>
